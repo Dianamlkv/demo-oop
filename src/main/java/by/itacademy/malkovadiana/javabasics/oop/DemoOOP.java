@@ -89,5 +89,22 @@ public class DemoOOP {
 
         }
 
+        User user = new User();
+        user.setName("Ivan");
+        System.out.println("Users name: " + user.getName());
+        Student student = new Student();
+        student.setName("Masha");
+        student.setGrant(120);
+        System.out.println("Students name: " + student.getName()
+                +"\nGrant = "+student.getGrant()
+                +"\nIncome = "+student.getIncome());
+        Person person = new Person();
+        person.setName("Katya");
+        person.setGrant(130);
+        person.setSalary(2200);
+        System.out.println("Persons name: " + person.getName()
+                +"\nGrant = "+person.getGrant()
+                +"\nSalary = "+person.getSalary()
+                +"\nIncome = "+person.getIncome());
     }
 }
